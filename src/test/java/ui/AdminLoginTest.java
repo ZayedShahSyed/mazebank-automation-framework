@@ -5,6 +5,7 @@ import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.admin.AdminLoginPage;
+import utilities.Routes;
 
 public class AdminLoginTest extends BaseTest {
 
@@ -12,11 +13,8 @@ public class AdminLoginTest extends BaseTest {
 
     @Test
     public void adminLogin(){
-        logger.info("Testing Admin Login");
         adminLoginPage = hp.navigateToAdminLoginPage();
-        logger.info("Navigating to Admin Login Page");
         adminLoginPage.login("admin","admin123");
-        Assert.assertEquals(getDriver().getCurrentUrl(),baseUrl+"/admin");
-        logger.info("Admin Login Successful");
+        Assert.assertEquals(getDriver().getCurrentUrl(), Routes.adminDashboard);
     }
 }

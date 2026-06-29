@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.customer.DashboardPage;
 import pages.customer.TransactionsPage;
+import utilities.Routes;
 
 public class WithdrawMoneyTest extends BaseTest {
     DashboardPage dashboardPage;
@@ -18,7 +19,7 @@ public class WithdrawMoneyTest extends BaseTest {
     public void navigateToTransactionsPage(){
         dashboardPage = hp.navigateToDashboardViaLogin("lala@gmail.com","Password@123");
         transactionsPage = dashboardPage.navigateToTransactions();
-        Assert.assertEquals(getDriver().getCurrentUrl(),baseUrl+"/transactions");
+        Assert.assertEquals(getDriver().getCurrentUrl(), Routes.transactionPage);
     }
 
     @Test(priority = 2)

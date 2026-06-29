@@ -1,13 +1,11 @@
 package ui;
 
 import base.BaseTest;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.customer.DashboardPage;
 import pages.customer.TransactionsPage;
+import utilities.Routes;
 
 public class DepositMoneyTest extends BaseTest {
 
@@ -18,7 +16,7 @@ public class DepositMoneyTest extends BaseTest {
     public void navigateToTransactionsPage(){
         dashboardPage = hp.navigateToDashboardViaLogin("lala@gmail.com","Password@123");
         transactionsPage = dashboardPage.navigateToTransactions();
-        Assert.assertEquals(getDriver().getCurrentUrl(),baseUrl+"/transactions");
+        Assert.assertEquals(getDriver().getCurrentUrl(), Routes.transactionPage);
 
     }
 

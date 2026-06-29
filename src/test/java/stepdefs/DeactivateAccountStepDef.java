@@ -8,6 +8,7 @@ import io.cucumber.java.en.When;
 import org.testng.Assert;
 import pages.admin.AdminDashboard;
 import pages.admin.AdminLoginPage;
+import utilities.Routes;
 
 public class DeactivateAccountStepDef extends BaseStepDef {
     AdminLoginPage adminLoginPage;
@@ -18,7 +19,7 @@ public class DeactivateAccountStepDef extends BaseStepDef {
     public void adminIsLoggedIntoTheApplication(){
         adminLoginPage = homePage.navigateToAdminLoginPage();
         adminDashboard = adminLoginPage.login("admin","admin123");
-        Assert.assertEquals(getDriver().getCurrentUrl(),baseUrl+"/admin");
+        Assert.assertEquals(getDriver().getCurrentUrl(), Routes.adminDashboard);
     }
 
     @Given("admin is on the accounts tab")

@@ -27,7 +27,7 @@
             <class name="api.AccountsApiTest" />
             <class name="api.DashboardApiTest" />
             <class name="api.DepositMoneyApiTest" />
-            <class name="api.LoginApiTest" />
+            <class name="api.LoginApiTest"/>
             <class name="api.TransactionHistoryApiTest"/>
         </classes>
     </test>

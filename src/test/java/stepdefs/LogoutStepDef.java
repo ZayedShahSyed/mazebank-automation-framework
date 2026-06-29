@@ -7,6 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 import pages.customer.LoginPage;
+import utilities.Routes;
 
 public class LogoutStepDef extends BaseStepDef {
 
@@ -23,9 +24,9 @@ public class LogoutStepDef extends BaseStepDef {
 
     @Then("user is logged out")
     public void isUserLoggedOut(){
-        getDriver().get(baseUrl+"/dashboard");
-        waitForUrl(baseUrl+"/login");
-        Assert.assertEquals(getDriver().getCurrentUrl(), (baseUrl + "/login"));
+        getDriver().get(Routes.dashboardPage);
+        waitForUrl(Routes.loginPage);
+        Assert.assertEquals(getDriver().getCurrentUrl(), (Routes.loginPage));
     }
 
     @After

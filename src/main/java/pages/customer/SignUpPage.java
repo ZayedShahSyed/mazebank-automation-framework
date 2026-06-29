@@ -22,8 +22,11 @@ public class SignUpPage extends BasePage {
     private By password = By.xpath("//mat-card/descendant::input[5]");
 
     private By registerBtn = By.xpath("//app-register/descendant::button");
+    private By signUpLocator = By.xpath("//h1[text()='Create Account']");
 
-
+    public String getSignUpText(){
+        return getText(driver,signUpLocator);
+    }
 
     public LoginPage signUp(String fullName, String email, String phoneNumber, String address, String password){
         type(driver,this.fullName,fullName);

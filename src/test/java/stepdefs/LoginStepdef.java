@@ -8,6 +8,7 @@ import io.cucumber.java.en.When;
 import org.testng.Assert;
 import pages.customer.LoginPage;
 import utilities.DriverManager;
+import utilities.Routes;
 
 
 public class LoginStepdef extends BaseStepDef {
@@ -23,7 +24,7 @@ public class LoginStepdef extends BaseStepDef {
     @Given("user is on the login page")
     public void userIsOnTheLoginPage(){
         loginPage = homePage.navigateToLoginPage();
-        Assert.assertEquals(DriverManager.getDriver().getCurrentUrl(),baseUrl+"/login");
+        Assert.assertEquals(DriverManager.getDriver().getCurrentUrl(), Routes.loginPage);
     }
 
     @When("user enters email {string} and password {string}")

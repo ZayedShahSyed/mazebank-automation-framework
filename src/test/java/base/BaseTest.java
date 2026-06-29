@@ -16,7 +16,7 @@ import java.time.Duration;
 
 public class BaseTest {
 
-    protected String baseUrl = Config.getBaseUrl();
+    public String baseUrl = Config.getBaseUrl();
     public Logger logger;
     public HomePage hp;
 

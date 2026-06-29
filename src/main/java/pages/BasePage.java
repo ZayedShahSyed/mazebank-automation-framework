@@ -40,4 +40,8 @@ public class BasePage {
 
         driver.findElement(locator).click();
     }
+
+    public String getText(WebDriver driver, By locator){
+        return driver.findElement(locator).getText();
+    }
 }

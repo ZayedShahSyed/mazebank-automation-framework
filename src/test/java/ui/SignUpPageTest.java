@@ -11,6 +11,7 @@ import org.testng.Assert;
 
 import org.testng.annotations.Test;
 import pages.customer.SignUpPage;
+import utilities.Routes;
 
 public class SignUpPageTest extends BaseTest {
 
@@ -23,13 +24,13 @@ public class SignUpPageTest extends BaseTest {
     public void isSignUpPageVisible(){
         signup = hp.navigateToRegisterPage();
 
-        Assert.assertTrue(getDriver().findElement(By.xpath("//h1[text()='Create Account']")).isDisplayed());
+        Assert.assertEquals(signup.getSignUpText(),"Create Account");
     }
 
     @Test(priority = 2)
     public void signUpWithValidDetails(){
         signup.signUp("ValidUser",faker.internet().emailAddress(),faker.regexify("[6-9][0-9]{9}"),"cognizant","Password@123");
-        Assert.assertEquals(getDriver().getCurrentUrl(), baseUrl+"/login");
+        Assert.assertEquals(getDriver().getCurrentUrl(), Routes.loginPage);
 
     }
 

@@ -9,13 +9,12 @@ import utils.UserManager;
 import static io.restassured.RestAssured.given;
 
 public class LoginApiService extends BaseService {
-    LoginRequestPayload loginRequestPayload = new LoginRequestPayload("lala@gmail.com","Password@123");
 
     public LoginApiService(){
 
     }
 
-    public Response login(){
+    public Response login(LoginRequestPayload loginRequestPayload){
         Response res = given()
                 .header("Content-Type","application/json")
                 .body(loginRequestPayload)

@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.customer.AccountsPage;
 import pages.customer.DashboardPage;
+import utilities.Routes;
 
 public class CreateAccountTest extends BaseTest {
 
@@ -23,7 +24,7 @@ public class CreateAccountTest extends BaseTest {
         dashboardPage = hp.navigateToDashboardViaSignUp(faker.internet().emailAddress(),faker.regexify("[6-9][0-9]{9}"));
         accountsPage = dashboardPage.navigateToAccounts();
 
-        Assert.assertEquals(getDriver().getCurrentUrl(),baseUrl+"/accounts");
+        Assert.assertEquals(getDriver().getCurrentUrl(), Routes.accountsPage);
     }
 
     @Test(priority = 2,testName = "SMK-003",dependsOnMethods = "navigateToAccountsPage")

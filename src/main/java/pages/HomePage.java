@@ -23,6 +23,17 @@ public class HomePage extends BasePage {
     private By account_icon = By.xpath("//mat-icon[text()='account_circle']");
     private By logout_btn = By.xpath("//span[text()=' Logout ']");
 
+    private By homeIcon = By.xpath("//mat-icon[text()='account_balance']");
+    private By landingText = By.xpath("//section[@class='hero']/descendant::h1");
+
+    public String getLandingText(){
+        return getText(driver,landingText);
+    }
+
+    public void navigateToHomePage(){
+        click(driver,homeIcon);
+    }
+
     public SignUpPage navigateToRegisterPage(){
         click(driver,registerNav);
         return new SignUpPage(driver);
