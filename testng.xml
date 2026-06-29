@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestCases"  parallel="tests">
+    <listeners>
+        <listener class-name="listeners.TestListeners"/>
+    </listeners>
+    <test name="TestCases" thread-count="10"  parallel="classes" >
+       <classes >
+           <class name="ui.AdminLoginTest" />
+           <class name="ui.CreateAccountTest" />
+           <class name="ui.LoginPageTest" />
+           <class name="ui.DepositMoneyTest"/>
+           <class name="ui.HomePageTest" />
+           <class name="ui.SignUpPageTest" />
+           <class name="ui.WithdrawMoneyTest"/>
+       </classes>
+    </test>
+
+
+    <test name="CucumberTests" >
+        <classes>
+            <class name="runners.TestRunners" />
+        </classes>
+    </test>
+
+    <test name="ApiTestCases" thread-count="5" parallel="classes">
+        <classes>
+            <class name="api.AccountsApiTest" />
+            <class name="api.DashboardApiTest" />
+            <class name="api.DepositMoneyApiTest" />
+            <class name="api.LoginApiTest" />
+            <class name="api.TransactionHistoryApiTest"/>
+        </classes>
+    </test>
+
+
+</suite>

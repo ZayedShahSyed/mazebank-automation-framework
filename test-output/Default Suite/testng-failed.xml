@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MazeBank(failed)">
+    <classes>
+      <class name="ui.AdminLoginTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="adminLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ui.AdminLoginTest -->
+    </classes>
+  </test> <!-- MazeBank(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
