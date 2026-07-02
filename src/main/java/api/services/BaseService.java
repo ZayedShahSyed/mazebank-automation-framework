@@ -13,7 +13,9 @@ import static io.restassured.RestAssured.given;
 public class BaseService {
     public UserManager userManager;
     public BaseService(){
-        RestAssured.baseURI="https://mazebank-dgov.onrender.com/api/";
+//        RestAssured.baseURI="https://mazebank-dgov.onrender.com/api/";
+        RestAssured.baseURI="http://localhost:8081/api/";
+
         RestAssured.useRelaxedHTTPSValidation();
         userManager = new UserManager();
 

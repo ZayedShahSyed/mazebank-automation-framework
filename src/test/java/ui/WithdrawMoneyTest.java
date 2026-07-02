@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.customer.DashboardPage;
 import pages.customer.TransactionsPage;
+import utilities.Config;
 import utilities.Routes;
 
 public class WithdrawMoneyTest extends BaseTest {
@@ -17,7 +18,7 @@ public class WithdrawMoneyTest extends BaseTest {
 
     @Test(priority=1)
     public void navigateToTransactionsPage(){
-        dashboardPage = hp.navigateToDashboardViaLogin("lala@gmail.com","Password@123");
+        dashboardPage = hp.navigateToDashboardViaLogin(Config.getDefaultLoginEmail(),Config.getDefaultLoginPassword());
         transactionsPage = dashboardPage.navigateToTransactions();
         Assert.assertEquals(getDriver().getCurrentUrl(), Routes.transactionPage);
     }
@@ -31,7 +32,7 @@ public class WithdrawMoneyTest extends BaseTest {
 
     @Test(priority = 3)
     public void withdrawMoneyFromDeactivatedAccount(){
-        dashboardPage = hp.navigateToDashboardViaLogin("vikash431@gmail.com", "Password@123");
+        dashboardPage = hp.navigateToDashboardViaLogin("krishna.kertzmann@hotmail.com", "Password@123");
         transactionsPage = dashboardPage.navigateToTransactions();
         String text = transactionsPage.withdrawMoney("1000");
         Assert.assertEquals(text, "Account is deactivated");

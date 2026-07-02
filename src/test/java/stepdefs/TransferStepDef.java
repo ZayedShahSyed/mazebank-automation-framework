@@ -8,6 +8,7 @@ import io.cucumber.java.en.When;
 import org.testng.Assert;
 import pages.customer.DashboardPage;
 import pages.customer.TransactionsPage;
+import utilities.Config;
 
 public class TransferStepDef extends BaseStepDef {
 
@@ -20,7 +21,7 @@ public class TransferStepDef extends BaseStepDef {
 
     @Given("user is on the transactions page")
     public void navigateToTransactionsPage(){
-        dashboardPage = homePage.navigateToDashboardViaLogin("lala@gmail.com","Password@123");
+        dashboardPage = homePage.navigateToDashboardViaLogin(Config.getDefaultLoginEmail(),Config.getDefaultLoginPassword());
         transactionsPage = dashboardPage.navigateToTransactions();
 
     }

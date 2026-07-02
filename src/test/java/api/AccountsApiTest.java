@@ -33,7 +33,7 @@ public class AccountsApiTest {
     @Test
     public void verifyAccountNumber(){
         String accountNumber = accountsResponses[0].getAccountNumber();
-        Assert.assertTrue(accountNumber.contains("MAZE17045978"));
+        Assert.assertTrue(accountNumber.contains("MAZE45331829"));
     }
 
     @Test

@@ -30,4 +30,14 @@ public class Config {
     public static int getExplicitWaitTime(){
         return Integer.parseInt(System.getProperty("explicitWaitSec",props.getProperty("explicitWaitSec","30")));
     }
+
+    public static String getDefaultLoginEmail(){
+        return System.getProperty("defaultLoginEmail", props.getProperty("defaultLoginEmail"));
+    }
+
+    public static String getDefaultLoginPassword(){
+        return System.getProperty("defaultLoginPassword", props.getProperty("defaultLoginPassword"));
+    }
+
+
 }

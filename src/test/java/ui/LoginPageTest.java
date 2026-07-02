@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.customer.LoginPage;
+import utilities.Config;
 
 import java.io.File;
 import java.io.FileReader;
@@ -34,7 +35,7 @@ public class LoginPageTest extends BaseTest {
     @Test(priority = 2)
     public void loginWithInvalidDetails(){
         loginPage=hp.navigateToLoginPage();
-        String text = loginPage.loginWithInvalidDetails("lala@gmail.com","password@11");
+        String text = loginPage.loginWithInvalidDetails(Config.getDefaultLoginEmail(),"WrongPassword");
         Assert.assertFalse(text.contains("Welcome"));
         hp.navigateToHomePage();
     }

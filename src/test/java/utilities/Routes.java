@@ -1,16 +1,16 @@
 package utilities;
 
 public class Routes {
-    public static String homepage = "https://mazebank-1.onrender.com";
-    public static String loginPage = "https://mazebank-1.onrender.com/login";
-    public static String signUpPage = "https://mazebank-1.onrender.com/register";
+    public static String homepage = "http://localhost:4200/";
+    public static String loginPage = "http://localhost:4200/login";
+    public static String signUpPage = "http://localhost:4200/register";
 
-    public static String dashboardPage="https://mazebank-1.onrender.com/dashboard";
-    public static String transactionPage="https://mazebank-1.onrender.com/transactions";
-    public static String accountsPage="https://mazebank-1.onrender.com/accounts";
+    public static String dashboardPage="http://localhost:4200/dashboard";
+    public static String transactionPage="http://localhost:4200/transactions";
+    public static String accountsPage="http://localhost:4200/accounts";
 
-    public static String profilePage="https://mazebank-1.onrender.com/profile";
+    public static String profilePage="http://localhost:4200/profile";
 
-    public static String adminLogin="https://mazebank-1.onrender.com/admin-login";
-    public static String adminDashboard="https://mazebank-1.onrender.com/admin";
+    public static String adminLogin="http://localhost:4200/admin-login";
+    public static String adminDashboard="http://localhost:4200/admin";
 }
