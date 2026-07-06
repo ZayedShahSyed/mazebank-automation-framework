@@ -25,7 +25,7 @@ public class SignUpPage extends BasePage {
     private By signUpLocator = By.xpath("//h1[text()='Create Account']");
 
     public String getSignUpText(){
-        return getText(driver,signUpLocator);
+        return waitForVisibility(driver,signUpLocator).getText();
     }
 
     public LoginPage signUp(String fullName, String email, String phoneNumber, String address, String password){

@@ -1,78 +1,75 @@
-02-07-2026 10:30:40 INFO  TestListeners:32 - Starting Logger for Listeners
-02-07-2026 10:30:41 INFO  TestListeners:42 - Starting Test: TransactionHistoryApiTest.getAllTransactionsAsAdmin()[pri:0, instance:api.TransactionHistoryApiTest@6e1ae763]
-02-07-2026 10:30:41 INFO  TestListeners:42 - Starting Test: LoginApiTest.adminLogin()[pri:0, instance:api.LoginApiTest@47f08b81]
-02-07-2026 10:30:41 INFO  TestListeners:42 - Starting Test: DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@56c9bbd8]
-02-07-2026 10:30:41 INFO  TestListeners:49 - LoginApiTest.adminLogin()[pri:0, instance:api.LoginApiTest@47f08b81] Successful
-02-07-2026 10:30:41 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@5827af16]
-02-07-2026 10:30:41 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@5827af16] Successful
-02-07-2026 10:30:41 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@5827af16]
-02-07-2026 10:30:41 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@5827af16] Successful
-02-07-2026 10:30:41 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@5827af16]
-02-07-2026 10:30:41 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@5827af16] Successful
-02-07-2026 10:30:41 INFO  TestListeners:42 - Starting Test: LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@47f08b81]
-02-07-2026 10:30:41 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@56c9bbd8] Successful
-02-07-2026 10:30:42 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f]
-02-07-2026 10:30:42 INFO  TestListeners:49 - LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@47f08b81] Successful
-02-07-2026 10:30:42 INFO  TestListeners:42 - Starting Test: LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@47f08b81]
-02-07-2026 10:30:42 INFO  TestListeners:49 - TransactionHistoryApiTest.getAllTransactionsAsAdmin()[pri:0, instance:api.TransactionHistoryApiTest@6e1ae763] Successful
-02-07-2026 10:30:42 INFO  TestListeners:42 - Starting Test: TransactionHistoryApiTest.getTransactionHistory()[pri:0, instance:api.TransactionHistoryApiTest@6e1ae763]
-02-07-2026 10:30:42 INFO  TestListeners:49 - LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@47f08b81] Successful
-02-07-2026 10:30:42 INFO  TestListeners:42 - Starting Test: LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@47f08b81]
-02-07-2026 10:30:42 INFO  TestListeners:49 - TransactionHistoryApiTest.getTransactionHistory()[pri:0, instance:api.TransactionHistoryApiTest@6e1ae763] Successful
-02-07-2026 10:30:42 INFO  TestListeners:49 - LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@47f08b81] Successful
-02-07-2026 10:30:43 INFO  TestListeners:81 - Ending Listener
-02-07-2026 10:30:57 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@56c698e3]
-02-07-2026 10:30:57 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@340b9973]
-02-07-2026 10:30:57 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@14d14731]
-02-07-2026 10:30:57 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@3f390d63]
-02-07-2026 10:30:57 INFO  TestListeners:42 - Starting Test: WithdrawMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.WithdrawMoneyTest@18cebaa5]
-02-07-2026 10:30:57 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@25bc0606]
-02-07-2026 10:30:57 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@85e6769]
-02-07-2026 10:30:57 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@14d14731] Successful
-02-07-2026 10:30:58 INFO  LoginPageTest:26 - Login With Valid Details
-02-07-2026 10:30:59 INFO  TestListeners:49 - SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@25bc0606] Successful
-02-07-2026 10:30:59 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@25bc0606]
-02-07-2026 10:31:02 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@340b9973] Successful
-02-07-2026 10:31:02 INFO  TestListeners:49 - WithdrawMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.WithdrawMoneyTest@18cebaa5] Successful
-02-07-2026 10:31:02 INFO  TestListeners:42 - Starting Test: WithdrawMoneyTest.withdrawMoney()[pri:2, instance:ui.WithdrawMoneyTest@18cebaa5]
-02-07-2026 10:31:02 INFO  LoginPageTest:30 - Ending Valid login
-02-07-2026 10:31:03 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@56c698e3] Successful
-02-07-2026 10:31:03 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@56c698e3]
-02-07-2026 10:31:03 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@85e6769] Successful
-02-07-2026 10:31:03 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@85e6769]
-02-07-2026 10:31:03 INFO  LoginPageTest:26 - Login With Valid Details
-02-07-2026 10:31:05 INFO  TestListeners:49 - SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@25bc0606] Successful
-02-07-2026 10:31:05 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@25bc0606]
-02-07-2026 10:31:05 INFO  TestListeners:49 - WithdrawMoneyTest.withdrawMoney()[pri:2, instance:ui.WithdrawMoneyTest@18cebaa5] Successful
-02-07-2026 10:31:05 INFO  TestListeners:42 - Starting Test: WithdrawMoneyTest.withdrawMoneyFromDeactivatedAccount()[pri:3, instance:ui.WithdrawMoneyTest@18cebaa5]
-02-07-2026 10:31:05 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@56c698e3] Successful
-02-07-2026 10:31:05 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoneyIntoDeactivatedAccount()[pri:3, instance:ui.DepositMoneyTest@56c698e3]
-02-07-2026 10:31:05 INFO  LoginPageTest:30 - Ending Valid login
-02-07-2026 10:31:06 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@85e6769] Successful
-02-07-2026 10:31:06 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@85e6769]
-02-07-2026 10:31:06 INFO  LoginPageTest:26 - Login With Valid Details
-02-07-2026 10:31:07 INFO  TestListeners:49 - CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@3f390d63] Successful
-02-07-2026 10:31:07 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@3f390d63]
-02-07-2026 10:31:08 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@25bc0606] Successful
-02-07-2026 10:31:08 INFO  TestListeners:49 - CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@3f390d63] Successful
-02-07-2026 10:31:09 INFO  LoginPageTest:30 - Ending Valid login
-02-07-2026 10:31:10 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@85e6769] Successful
-02-07-2026 10:31:10 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:2, instance:ui.LoginPageTest@85e6769]
-02-07-2026 10:31:10 INFO  TestListeners:49 - DepositMoneyTest.depositMoneyIntoDeactivatedAccount()[pri:3, instance:ui.DepositMoneyTest@56c698e3] Successful
-02-07-2026 10:31:10 INFO  TestListeners:49 - WithdrawMoneyTest.withdrawMoneyFromDeactivatedAccount()[pri:3, instance:ui.WithdrawMoneyTest@18cebaa5] Successful
-02-07-2026 10:31:12 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:2, instance:ui.LoginPageTest@85e6769] Successful
-02-07-2026 10:31:19 INFO  TestListeners:81 - Ending Listener
-02-07-2026 10:31:28 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f] Successful
-02-07-2026 10:31:28 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f]
-02-07-2026 10:32:04 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f] Successful
-02-07-2026 10:32:04 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f]
-02-07-2026 10:32:38 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f] Successful
-02-07-2026 10:32:38 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f]
-02-07-2026 10:33:09 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f] Successful
-02-07-2026 10:33:09 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f]
-02-07-2026 10:33:41 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f] Successful
-02-07-2026 10:33:41 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f]
-02-07-2026 10:34:05 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f] Successful
-02-07-2026 10:34:05 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f]
-02-07-2026 10:34:28 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@5316e95f] Successful
-02-07-2026 10:34:28 INFO  TestListeners:81 - Ending Listener
+06-07-2026 17:11:44 INFO  TestListeners:49 - LoginApiTest.adminLogin()[pri:0, instance:api.LoginApiTest@659a2455] Successful
+06-07-2026 17:11:44 INFO  TestListeners:32 - Starting Logger for Listeners
+06-07-2026 17:11:45 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@4721d212]
+06-07-2026 17:11:45 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@4721d212] Successful
+06-07-2026 17:11:45 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@4721d212]
+06-07-2026 17:11:45 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@4721d212] Successful
+06-07-2026 17:11:45 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@4721d212]
+06-07-2026 17:11:45 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@4721d212] Successful
+06-07-2026 17:11:45 INFO  TestListeners:42 - Starting Test: LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@659a2455]
+06-07-2026 17:11:45 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@45cff11c] Successful
+06-07-2026 17:11:46 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9]
+06-07-2026 17:11:46 INFO  TestListeners:49 - LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@659a2455] Successful
+06-07-2026 17:11:46 INFO  TestListeners:42 - Starting Test: LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@659a2455]
+06-07-2026 17:11:46 INFO  TestListeners:49 - TransactionHistoryApiTest.getAllTransactionsAsAdmin()[pri:0, instance:api.TransactionHistoryApiTest@71a4f441] Successful
+06-07-2026 17:11:46 INFO  TestListeners:42 - Starting Test: TransactionHistoryApiTest.getTransactionHistory()[pri:0, instance:api.TransactionHistoryApiTest@71a4f441]
+06-07-2026 17:11:46 INFO  TestListeners:49 - LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@659a2455] Successful
+06-07-2026 17:11:46 INFO  TestListeners:42 - Starting Test: LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@659a2455]
+06-07-2026 17:11:46 INFO  TestListeners:49 - LoginApiTest.login(api.payloads.LoginRequestPayload)[pri:0, instance:api.LoginApiTest@659a2455] Successful
+06-07-2026 17:11:46 INFO  TestListeners:49 - TransactionHistoryApiTest.getTransactionHistory()[pri:0, instance:api.TransactionHistoryApiTest@71a4f441] Successful
+06-07-2026 17:11:47 INFO  TestListeners:81 - Ending Listener
+06-07-2026 17:11:57 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@5a411614]
+06-07-2026 17:11:57 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@f478a81]
+06-07-2026 17:11:57 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@f478a81] Successful
+06-07-2026 17:11:57 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@47c4ecdc]
+06-07-2026 17:11:58 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@48a12036]
+06-07-2026 17:11:58 FATAL TestListeners:55 - Test Failed: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@47c4ecdc]
+06-07-2026 17:11:59 INFO  LoginPageTest:26 - Login With Valid Details
+06-07-2026 17:11:59 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@47c4ecdc]
+06-07-2026 17:11:59 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@2a79d4b1]
+06-07-2026 17:12:02 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@28e8dde3]
+06-07-2026 17:12:06 INFO  LoginPageTest:30 - Ending Valid login
+06-07-2026 17:12:07 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@48a12036] Successful
+06-07-2026 17:12:07 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@48a12036]
+06-07-2026 17:12:07 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@28e8dde3] Successful
+06-07-2026 17:12:07 INFO  TestListeners:42 - Starting Test: WithdrawMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.WithdrawMoneyTest@793138bd]
+06-07-2026 17:12:08 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@5a411614] Successful
+06-07-2026 17:12:08 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@5a411614]
+06-07-2026 17:12:09 INFO  TestListeners:49 - SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@47c4ecdc] Successful
+06-07-2026 17:12:09 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@47c4ecdc]
+06-07-2026 17:12:10 INFO  LoginPageTest:26 - Login With Valid Details
+06-07-2026 17:12:11 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@48a12036] Successful
+06-07-2026 17:12:11 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoneyIntoDeactivatedAccount()[pri:3, instance:ui.DepositMoneyTest@48a12036]
+06-07-2026 17:12:12 INFO  LoginPageTest:30 - Ending Valid login
+06-07-2026 17:12:13 INFO  TestListeners:49 - CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@2a79d4b1] Successful
+06-07-2026 17:12:13 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@2a79d4b1]
+06-07-2026 17:12:13 INFO  TestListeners:49 - WithdrawMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.WithdrawMoneyTest@793138bd] Successful
+06-07-2026 17:12:13 INFO  TestListeners:42 - Starting Test: WithdrawMoneyTest.withdrawMoney()[pri:2, instance:ui.WithdrawMoneyTest@793138bd]
+06-07-2026 17:12:13 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@5a411614] Successful
+06-07-2026 17:12:14 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@5a411614]
+06-07-2026 17:12:14 INFO  LoginPageTest:26 - Login With Valid Details
+06-07-2026 17:12:14 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@47c4ecdc] Successful
+06-07-2026 17:12:15 INFO  TestListeners:49 - CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@2a79d4b1] Successful
+06-07-2026 17:12:17 INFO  TestListeners:49 - WithdrawMoneyTest.withdrawMoney()[pri:2, instance:ui.WithdrawMoneyTest@793138bd] Successful
+06-07-2026 17:12:17 INFO  TestListeners:42 - Starting Test: WithdrawMoneyTest.withdrawMoneyFromDeactivatedAccount()[pri:3, instance:ui.WithdrawMoneyTest@793138bd]
+06-07-2026 17:12:17 INFO  TestListeners:49 - DepositMoneyTest.depositMoneyIntoDeactivatedAccount()[pri:3, instance:ui.DepositMoneyTest@48a12036] Successful
+06-07-2026 17:12:17 INFO  LoginPageTest:30 - Ending Valid login
+06-07-2026 17:12:18 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails(java.lang.String,java.lang.String)[pri:1, instance:ui.LoginPageTest@5a411614] Successful
+06-07-2026 17:12:18 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:2, instance:ui.LoginPageTest@5a411614]
+06-07-2026 17:12:22 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:2, instance:ui.LoginPageTest@5a411614] Successful
+06-07-2026 17:12:23 INFO  TestListeners:49 - WithdrawMoneyTest.withdrawMoneyFromDeactivatedAccount()[pri:3, instance:ui.WithdrawMoneyTest@793138bd] Successful
+06-07-2026 17:12:33 INFO  TestListeners:81 - Ending Listener
+06-07-2026 17:12:42 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9] Successful
+06-07-2026 17:12:42 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9]
+06-07-2026 17:13:05 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9] Successful
+06-07-2026 17:13:05 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9]
+06-07-2026 17:13:28 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9] Successful
+06-07-2026 17:13:28 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9]
+06-07-2026 17:13:50 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9] Successful
+06-07-2026 17:13:50 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9]
+06-07-2026 17:14:12 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9] Successful
+06-07-2026 17:14:12 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9]
+06-07-2026 17:14:36 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9] Successful
+06-07-2026 17:14:36 INFO  TestListeners:42 - Starting Test: AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9]
+06-07-2026 17:15:01 INFO  TestListeners:49 - AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunners@4a3329b9] Successful
+06-07-2026 17:15:01 INFO  TestListeners:81 - Ending Listener

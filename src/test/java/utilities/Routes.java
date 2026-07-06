@@ -1,16 +1,17 @@
 package utilities;
 
 public class Routes {
-    public static String homepage = "http://localhost:4200/";
-    public static String loginPage = "http://localhost:4200/login";
-    public static String signUpPage = "http://localhost:4200/register";
 
-    public static String dashboardPage="http://localhost:4200/dashboard";
-    public static String transactionPage="http://localhost:4200/transactions";
-    public static String accountsPage="http://localhost:4200/accounts";
+    public static String homepage = Config.getBaseUrl();
+    public static String loginPage = homepage+"login";
+    public static String signUpPage = homepage+"register";
 
-    public static String profilePage="http://localhost:4200/profile";
+    public static String dashboardPage=homepage+"dashboard";
+    public static String transactionPage=homepage+"transactions";
+    public static String accountsPage=homepage+"accounts";
 
-    public static String adminLogin="http://localhost:4200/admin-login";
-    public static String adminDashboard="http://localhost:4200/admin";
+    public static String profilePage=homepage+"profile";
+
+    public static String adminLogin=homepage+"admin-login";
+    public static String adminDashboard=homepage+"admin";
 }
